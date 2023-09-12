@@ -33,27 +33,88 @@ margin-left: 15px;
 margin-right: 15px;
 margin-bottom: 20px;
 
+
 }
-@media (min-width:1300px) {
+@media (max-width:6500px) {
   .playlist-container{
-    width: 800px;
-    height: 450px;
+    width: 5100px;
+    height: 2868px;
   }
 }
+
+@media (max-width:5300px) {
+  .playlist-container{
+    width: 3700px;
+    height: 2081px;
+  }
+}
+
+@media (max-width:3900px) {
+  .playlist-container{
+    width: 2800px;
+    height: 1575px;
+  }
+}
+
+@media (max-width:2900px) {
+  .playlist-container{
+    width: 1800px;
+    height: 1012px;
+  }
+}
+
+@media (max-width:1900px) {
+  .playlist-container{
+    width: 1200px;
+    height: 675px;
+  }
+}
+
+@media (max-width:1300px) {
+  .playlist-container{
+    width: 890px;
+    height: 500px;
+  }
+}
+
+
+@media (max-width:900px) {
+  .playlist-container{
+    width: 690px;
+    height: 388px;
+  }
+}
+
 
 
 @media (max-width:730px) {
   .playlist-container{
-    width: 280px;
-    height: 157px;
+    width: 410px;
+    height: 230px;
   }
 }
 @media (max-width:425px) {
   .playlist-container{
-    width: 170px;
-    height: 95px;
+    width: 370px;
+    height: 207px;
   }
 }
+
+@media (max-width:380px) {
+  .playlist-container{
+    width: 240px;
+    height: 135px;
+  }
+}
+
+
+@media (max-width:280px) {
+  .playlist-container{
+    width: 120px;
+    height: 67px;
+  }
+}
+
 @media (max-width:194px) {
   .playlist-container{
     width: 50px;
@@ -85,3 +146,4 @@ input{
   color:black;
   font-weight: bold;
 }
+
